@@ -48,7 +48,7 @@
 }
 
 .container-fluid {
-    max-width: 99%;
+    max-width: 100%;
 }
 
 
@@ -89,7 +89,7 @@ body {
 }
 
 .header {
-    max-width: 96%;
+    max-width: 97%;
     margin: 20px auto;
 }
 

@@ -125,7 +125,7 @@
 }
 
 .about-us {
-
+ padding: 0px 10px;
 }
 
 .about-us h4 {
@@ -167,4 +167,41 @@
 .about-us ul li::marker {
     color: #F2AF29;       /* Bullet color */
     font-size: 1.5em; /* Bullet size */
+}
+
+.our-services {
+ padding: 4% 10px;
+ background: url(../images/home/our-services-bg.png) no-repeat center top;
+}
+
+.our-services h4 {
+    background: #F2AF29;
+    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 52px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+    max-width: 340px;
+    margin-bottom: 30px;
+
+}
+
+.our-services p {
+       font-size: 25px;
+       line-height: 1.6;
+       font-weight: 400;
+       padding: 0px 0 30px;
+       color: #fff;
+}
+
+.our-services .services-content {
+    margin: 30px auto;
+    padding: 0px 5%;
 }
