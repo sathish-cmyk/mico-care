@@ -1,0 +1,100 @@
+.upcoming-events {
+    margin: 20px 20px;
+}
+
+
+.upcoming-events h4 {
+    background: #F2AF29;
+    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 52px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+    max-width: 340px;
+
+}
+
+.view-more {
+    text-align: right;
+    font-size: 25px;
+    color: #000;
+}
+
+.view-more a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: solid 4px #F2AF29;
+}
+
+.upcoming-events img {
+    width: 100%;
+}
+
+.event-content {
+ margin: 10px auto;
+ padding: 0px 10px;
+}
+
+.event-content h5 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.event-content .details {
+    font-size: 20px;
+    color: #616055;
+    font-weight: 400;
+}
+.event-content .details .date p {
+       font-size: 20px;
+       font-weight: 700;
+}
+.event-content .details .time p {
+       font-size: 20px;
+}
+
+.event-content .details .location p {
+    font-size: 20px;
+}
+
+.event-content .details .date p img, .event-content .details .location p img, .event-content .details .time p img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.watch-video {
+ margin: 10px auto;
+ padding: 0px 10px;
+}
+
+ 
+
+.watch-video h4 {
+    background: #F2AF29;
+    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 52px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+    max-width: 340px;
+
+}
+
