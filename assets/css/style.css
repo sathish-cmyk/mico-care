@@ -241,7 +241,7 @@ div#navbarScroll {
     font-weight: 400;
     font-size: 21px;
     line-height: 1.4;
-    padding: 4% 1% 2%;
+    padding: 3.5% 1% 2%;
     color: #fff;
 }
 
@@ -260,6 +260,11 @@ div#navbarScroll {
     font-weight: 400;
 }
 
+.footer-bottom .col-md-3:nth-child(1) p {
+    color: rgba(255, 255, 255, 0.76);
+    padding-right: 20px;
+}
+
 .footer-bottom p a {
     text-decoration: none;
     color: #fff;
@@ -268,13 +273,23 @@ div#navbarScroll {
 .footer-bottom img {
     margin-right: 10px;
 }
-
+ 
 .footer-bottom input {
     background: #fff;
-    width: 100%;
+    width: 100% !important;
     height: 60px;
     border: none;
-    border-radius: 10px;
+    border-radius: 10px !important;
+
+}
+
+.footer-bottom form button {
+    background: none;
+    border: none;
+    right: 0px;
+    position: absolute;
+    top: 12px;
+    z-index: 999;
 }
 
 .footer-bottom .col-md-6.text-end p{
@@ -284,3 +299,5 @@ div#navbarScroll {
 .footer-bottom .col-md-6.text-end p a {
     padding-left: 5px;
 }
+
+ 
