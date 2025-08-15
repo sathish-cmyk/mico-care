@@ -83,7 +83,7 @@ body {
 
 .navbar {
     background: #fff;
-    height: 100px;
+    height: 85px;
     box-shadow: 0 0px 25px 0 rgba(90, 116, 148, 0.25);
     border-radius: 10px;
 }
@@ -111,6 +111,7 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     
 }
+
 
 
 .header .navbar-nav .nav-link {
@@ -148,6 +149,27 @@ body {
 
 div#navbarScroll {
     margin-top: 20px;
+}
+
+.navbar-nav .dropdown-menu {
+    top:125% !important;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+     padding: 15px 15px 0;
+}
+
+.dropdown-item {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 15px;
+    border-bottom: solid 2px #F2AF29;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background: transparent;
+}
+
+.dropdown-menu li:last-child a.dropdown-item {
+    border-bottom: none;
 }
 
 .header .login {
