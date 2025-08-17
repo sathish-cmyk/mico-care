@@ -240,7 +240,7 @@
 }
 
 .projects {
-     padding: 5% 10px;
+     padding: 5% 10px 2%;
  background: #fff;
 }
 
@@ -277,6 +277,7 @@
     padding: 10px 0px;
      color: #000;
      font-size: 60px;
+     margin-bottom: 30px;
 }
 
 .projects .input-group {
@@ -300,4 +301,45 @@
 }
 #carouselProjectsControls {
     margin: 30px auto;
+}
+
+
+
+.projects img {
+    width: 100%;
+}
+
+.projects .event-content {
+ margin: 10px auto;
+ padding: 0px 10px;
+}
+
+.projects .event-content h5 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0 0px;
+    font-family: "PT Sans", sans-serif;
+}
+
+.projects .event-content .details {
+    font-size: 20px;
+    color: #616055;
+    font-weight: 400;
+}
+.projects .event-content .details .date p {
+       font-size: 20px;
+       font-weight: 700;
+}
+.projects .event-content .details .time p {
+       font-size: 20px;
+}
+
+ 
+
+.projects .event-content .details .date p img, .projects .event-content .details .location p img, .projects .event-content .details .time p img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
