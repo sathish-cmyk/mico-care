@@ -49,6 +49,7 @@
 
 .container-fluid {
     max-width: 100%;
+    padding: 0;
 }
 
 
@@ -86,6 +87,7 @@ body {
     height: 85px;
     box-shadow: 0 0px 25px 0 rgba(90, 116, 148, 0.25);
     border-radius: 10px;
+    padding: 0px 15px;
 }
 
 .header {
@@ -141,6 +143,7 @@ body {
     height: 4px; /* Thickness of the line */
     background-color: #F2AF29;
     border-radius: 4px; /* Curves both ends */
+    border:none;
 }
 
 .header .navbar-brand img {
@@ -164,8 +167,15 @@ div#navbarScroll {
     border-bottom: solid 2px #F2AF29;
 }
 
+.active-submenu {
+      color: #000;
+    font-weight: 600;
+}
+
 .dropdown-item:focus, .dropdown-item:hover {
     background: transparent;
+    color: #000;
+    font-weight: 600;
 }
 
 .dropdown-menu li:last-child a.dropdown-item {
@@ -182,66 +192,6 @@ div#navbarScroll {
     margin-top: -20px;
 }
 
-.banner-home {
-    background: url(../images/home/hero-bg.png) no-repeat left bottom #F2AF29;
-    padding: 13% 20px 10%;
-    margin-top: -140px;
-    max-height: 1080px;
-}
-
-
-.banner-home  .ban-content {
-    margin: 20% 0 10%;
- 
-}
-
-.banner-home  .ban-content h1 {
-    font-size: 75px;
-    text-align: left;
-    font-family: "PT Serif", serif;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.banner-home  .ban-content p {
-    font-size: 40px;
-    font-family: "PT Serif", serif;
-}
-
-.banner-home  .ban-content h2 a {
-    background: #F2AF29;
-    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
-    text-decoration: none;
-    color: #000;
-    font-size: 30px;
-    line-height: 1.5;
-    text-align: center;
-    padding: 0px 30px;
-    border-radius: 52px;
-    font-family: "PT Serif", serif;
-    font-weight: 700;
-    padding: 10px 0px;
-    display: block;
-    max-width: 340px;
-    margin: 50px 0px;
-}
-
-
-.banner-home  .ban-content h3 a {
-    background: #fff;    
-    text-decoration: none;
-    color: #000;
-    font-size: 30px;
-    line-height: 1.5;
-    text-align: center;
-    padding: 0px 30px;
-    border-radius: 53px;
-    font-weight: 700;
-    padding: 10px 0px;
-    display: block;
-    max-width: 238px;
-    margin: 30px 0px;
-}
 
 
 .footer-top {
@@ -265,7 +215,7 @@ div#navbarScroll {
     font-weight: 400;
     font-size: 21px;
     line-height: 1.4;
-    padding: 3.5% 1% 2%;
+    padding: 3.5% 2% 2%;
     color: #fff;
 }
 

@@ -1,0 +1,122 @@
+.banner-services {
+    width: 100%;
+    margin-top: -160px;
+}
+
+.services {
+ padding: 0px 20px;
+}
+
+.services h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    margin: 30px auto;
+}
+
+.services h4 {
+    background: #F2AF29;
+    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 52px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+    max-width: 340px;
+    margin: auto;
+
+}
+
+.services p {
+       font-size: 25px;
+       line-height: 1.6;
+       font-weight: 400;
+       padding: 0px 10px;
+       font-weight: normal;
+         font-family: "PT Sans", sans-serif;
+         text-align: center;
+         color: #616055;
+}
+
+.services .card {
+    width: 450px;
+    min-height: 350px;
+    height: auto;
+    text-align: center;
+    margin: 0px 15px 30px;
+    background: #FFFBCB;
+    border: none;
+    padding: 40px 20px 0;
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+.services .card:hover {
+    background: #FEED0A;
+}
+
+.services .card-body {
+    padding: 0px;
+}
+
+ .services .card .img-wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 50%;   /* circular background */
+  display: inline-flex; /* keeps image centered */
+  width: 123px;
+  height: 123px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  margin-bottom: 30px;
+}
+
+.services .card .img-wrapper img {
+  object-fit: fill;
+  border-radius: 0;      /* make sure image itself is NOT rounded */
+  width: 100%;
+}
+
+.services .card p {
+    font-size: 20px;
+    color: #616055;
+    text-align: center;
+    padding: 0px;
+}
+
+.services .card p a {
+    text-decoration: none;
+    color: #616055;
+}
+.services .card:hover .img-wrapper {
+background: #010CA2;
+}
+.services .card:hover .img-wrapper img {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(140deg) brightness(105%) contrast(101%);
+}
+.services .card:hover p {
+    color: #000;
+}
+
+.services .card:hover p a{
+    color: #000;
+     position: relative; /* required for ::after */
+}
+
+.services .card:hover p a::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;          /* distance below text */
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #fff; /* underline color */
+    border-radius: 4px;
+}
