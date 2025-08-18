@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <filter id="Rectangle_1213" x="0" y="0" width="70" height="70" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1370" data-name="Group 1370" transform="translate(-486 -1107)">
+    <g id="Group_1369" data-name="Group 1369" transform="translate(495 1113)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_1213)">
+        <rect id="Rectangle_1213-2" data-name="Rectangle 1213" width="52" height="52" rx="10" transform="translate(9 6)" fill="#fff"/>
+      </g>
+    </g>
+    <path id="Path_1196" data-name="Path 1196" d="M17.36,7.7a1.32,1.32,0,0,1,1.862-.128l8.075,7.04a1.32,1.32,0,0,1,0,1.99l-8.075,7.04a1.32,1.32,0,1,1-1.735-1.99l5.42-4.725H7.07a1.32,1.32,0,1,1,0-2.64H22.907l-5.42-4.725A1.32,1.32,0,0,1,17.36,7.7Z" transform="translate(498.117 1139.806) rotate(-45)" fill-rule="evenodd"/>
+  </g>
+</svg>
