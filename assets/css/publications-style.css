@@ -1,0 +1,102 @@
+.banner-aboutus {
+    width: 100%;
+    margin-top: -160px;
+}
+.header .navbar-nav .active {
+    font-weight: 700; 
+     position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    top: 0px;
+}
+.publicat-inner-title {
+    font-size: 50px;
+    text-align: center;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    margin: 30px auto;
+}
+.publication-container h4 {
+    background: #F2AF29;
+    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 52px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+    max-width: 340px;
+    margin: 5% auto 0;
+}
+.publicat-top-para{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 0;
+    font-weight: normal;
+    font-family: "PT Sans", sans-serif;
+    max-width: 80%;
+    margin: auto;
+}
+.yellow-bg-cnt{
+    background: #F2AF29;
+    padding: 3% 6%;
+    color: #fff;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 40px 0 30px;
+}
+#resources-container{
+    padding: 0 4%;
+}
+.filter-title{
+    font-size: 40px;
+    text-align: left;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    width: 50%;
+    float: left;
+}
+.filter-search-div{
+    width: 50%;
+    float: right;    
+    position: relative;
+    padding-right: 30px;
+}
+.searchfilter-input{
+    border:1px solid #616055;
+    border-radius: 10px;
+    background: #fff;
+    width: 60%;
+    float: right;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 0 0 10px;
+}
+.search-icon{
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    width: 3%;
+}
+#resource-img-container{
+    clear: both;
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 40px;
+}
+#resource-img-container img{
+    width: 32%;
+    float: left;
+    margin-right: 18px;
+}
+#resource-img-container img :nth-child(4) {
+    margin-right: 0;
+}
