@@ -114,15 +114,7 @@
     border-bottom: solid 4px #F2AF29;
 }
 
-/* .upcoming-events img::before {
-    background-color: rgba(242, 175, 41, 1);
-    position: absolute;
-}
-
-.upcoming-events img {
-    width: 100%;
-    position: relative;
-} */
+ 
 
 .upcoming-events .event-img {
   position: relative;
@@ -188,6 +180,7 @@ background: linear-gradient(150deg, rgba(254, 238, 14, 0.20) 0%, rgba(242, 175, 
 .watch-video {
  margin: 10px auto;
  padding: 0px 20px;
+ position: relative;
 }
 
  
