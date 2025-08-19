@@ -1,0 +1,13 @@
+.text-paragraph {
+   font-size: 1.3rem;
+}
+.tab-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .tab-wrapper {
+      display: flex;
+      gap: 5px;
+    }
